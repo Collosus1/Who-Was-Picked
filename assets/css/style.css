@@ -4,14 +4,13 @@
 * Author: BootstrapMade.com
 * License: https://bootstrapmade.com/license/
 */
-
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
 body {
   font-family: "Open Sans", sans-serif;
   color: #272829;
-   background-image: url('assets/img/xiaomi-mi-mix-3-1920x1080-abstract-dark-20776.jpg');
+  background-image: url('assets/img/xiaomi-mi-mix-3-1920x1080-abstract-dark-20776.jpg');
 }
 
 a {
@@ -45,15 +44,18 @@ h1, h2, h3, h4, h5, h6 {
   border-radius: 50px;
   transition: all 0.4s;
 }
+
 .back-to-top i {
   font-size: 28px;
   color: #fff;
   line-height: 0;
 }
+
 .back-to-top:hover {
-  background: #2eafec;
+  background: blue;
   color: #fff;
 }
+
 .back-to-top.active {
   visibility: visible;
   opacity: 1;
@@ -75,12 +77,14 @@ h1, h2, h3, h4, h5, h6 {
   background: #040b14;
   overflow-y: auto;
 }
+
 #header .profile img {
   margin: 15px auto;
   display: block;
   width: 120px;
   border: 8px solid #2c2f3f;
 }
+
 #header .profile h1 {
   font-size: 24px;
   margin: 0;
@@ -90,10 +94,12 @@ h1, h2, h3, h4, h5, h6 {
   text-align-last: center;
   font-family: "Poppins", sans-serif;
 }
+
 #header .profile h1 a, #header .profile h1 a:hover {
   color: #fff;
   text-decoration: none;
 }
+
 #header .profile .social-links a {
   font-size: 18px;
   display: inline-block;
@@ -108,6 +114,7 @@ h1, h2, h3, h4, h5, h6 {
   height: 36px;
   transition: 0.3s;
 }
+
 #header .profile .social-links a:hover {
   background: #149ddd;
   color: #fff;
@@ -127,6 +134,7 @@ h1, h2, h3, h4, h5, h6 {
     margin-left: 0;
   }
 }
+
 /*--------------------------------------------------------------
 # Navigation Menu
 --------------------------------------------------------------*/
@@ -134,15 +142,18 @@ h1, h2, h3, h4, h5, h6 {
 .nav-menu {
   padding: 30px 0 0 0;
 }
+
 .nav-menu * {
   margin: 0;
   padding: 0;
   list-style: none;
 }
-.nav-menu > ul > li {
+
+.nav-menu>ul>li {
   position: relative;
   white-space: nowrap;
 }
+
 .nav-menu a, .nav-menu a:focus {
   display: flex;
   align-items: center;
@@ -152,16 +163,19 @@ h1, h2, h3, h4, h5, h6 {
   transition: 0.3s;
   font-size: 15px;
 }
+
 .nav-menu a i, .nav-menu a:focus i {
   font-size: 24px;
   padding-right: 8px;
   color: #6f7180;
 }
-.nav-menu a:hover, .nav-menu .active, .nav-menu .active:focus, .nav-menu li:hover > a {
+
+.nav-menu a:hover, .nav-menu .active, .nav-menu .active:focus, .nav-menu li:hover>a {
   text-decoration: none;
   color: #fff;
 }
-.nav-menu a:hover i, .nav-menu .active i, .nav-menu .active:focus i, .nav-menu li:hover > a i {
+
+.nav-menu a:hover i, .nav-menu .active i, .nav-menu .active:focus i, .nav-menu li:hover>a i {
   color: #149ddd;
 }
 
@@ -190,6 +204,7 @@ h1, h2, h3, h4, h5, h6 {
 .mobile-nav-active {
   overflow: hidden;
 }
+
 .mobile-nav-active #header {
   left: 0;
 }
@@ -200,13 +215,15 @@ h1, h2, h3, h4, h5, h6 {
 .hero {
   width: 100%;
   height: 100vh;
-  background-color:black;
+  background-color: black;
 }
+
 #hero {
   width: 100%;
   height: 100vh;
-  background-color:black;
+  background-color: black;
 }
+
 #hero:before {
   content: "";
   background: rgba(5, 13, 24, 0.3);
@@ -217,11 +234,13 @@ h1, h2, h3, h4, h5, h6 {
   right: 0;
   z-index: 1;
 }
+
 #hero .hero-container {
   position: relative;
   z-index: 2;
   min-width: 300px;
 }
+
 #hero h1 {
   margin: 0 0 10px 0;
   font-size: 64px;
@@ -229,68 +248,72 @@ h1, h2, h3, h4, h5, h6 {
   line-height: 56px;
   color: #fff;
 }
+
 #hero p {
   color: #fff;
   margin-bottom: 50px;
   font-size: 26px;
   font-family: "Poppins", sans-serif;
 }
+
 #hero p span {
   color: #fff;
   padding-bottom: 4px;
   letter-spacing: 1px;
   border-bottom: 3px solid #149ddd;
 }
+
 @media (min-width: 1024px) {
   #hero {
     background-attachment: fixed;
   }
 }
+
 @media (max-width: 768px) {
   #hero h1 {
     font-size: 28px;
     line-height: 36px;
   }
+
   #hero h2 {
     font-size: 18px;
     line-height: 24px;
     margin-bottom: 30px;
   }
 }
+
 /*--------------------------------------------------------------
 # Individual's Zones
 --------------------------------------------------------------*/
-.person1{
+.person1 {
   background: #05088b;
   background: -webkit-linear-gradient(100deg, #05088b 0%, #403d3d 50%, #9028cf 100%);
   background: linear-gradient(100deg, #05088b 0%, #403d3d 50%, #9028cf 100%);
-
 }
 
-person1:hover{
+person1:hover {
   background: #000000;
-background: -webkit-linear-gradient(147deg, #000000 0%, #7704bb 100%);
-background: linear-gradient(147deg, #000000 0%, #7704bb 100%);
+  background: -webkit-linear-gradient(147deg, #000000 0%, #7704bb 100%);
+  background: linear-gradient(147deg, #000000 0%, #7704bb 100%);
 }
 
-.person2{
+.person2 {
   background: #05088b;
-background: -webkit-linear-gradient(323deg, #05088b 0%, #403d3d 50%, #9028cf 100%);
-background: linear-gradient(323deg, #05088b 0%, #403d3d 50%, #9028cf 100%);
+  background: -webkit-linear-gradient(323deg, #05088b 0%, #403d3d 50%, #9028cf 100%);
+  background: linear-gradient(323deg, #05088b 0%, #403d3d 50%, #9028cf 100%);
 }
-.person3{
+
+.person3 {
   background: rgba(5, 8, 139, 0.48);
   background: -webkit-linear-gradient(299deg, rgba(5, 8, 139, 0.48) 0%, #000000 50%, #4b28cf 100%);
   background: linear-gradient(299deg, rgba(5, 8, 139, 0.48) 0%, #000000 50%, #4b28cf 100%);
 }
 
-
-
 /*--------------------------------------------------------------
 # Sections General
 --------------------------------------------------------------*/
 section {
-width: 100%;
+  width: 100%;
   padding: 100px 0;
   overflow: hidden;
 }
@@ -300,16 +323,19 @@ width: 100%;
 }
 
 .section-title {
+color:white;
   padding-bottom: 30px;
 }
+
 .section-title h2 {
   font-size: 32px;
   font-weight: bold;
   margin-bottom: 20px;
   padding-bottom: 20px;
   position: relative;
-  color: #173b6c;
+  color: white;
 }
+
 .section-title h2::after {
   content: "";
   position: absolute;
@@ -320,6 +346,7 @@ width: 100%;
   bottom: 0;
   left: 0;
 }
+
 .section-title p {
   margin-bottom: 0;
 }
@@ -327,33 +354,39 @@ width: 100%;
 /*--------------------------------------------------------------
 # About
 --------------------------------------------------------------*/
-.about{
+.about {
   width: 100%;
   color: white;
 }
+
 .about .content h3 {
   font-weight: 700;
   font-size: 26px;
   color: white;
 }
+
 .about .content ul {
   list-style: none;
   padding: 0;
 }
+
 .about .content ul li {
   margin-bottom: 20px;
   display: flex;
   align-items: center;
 }
+
 .about .content ul strong {
   margin-right: 10px;
 }
+
 .about .content ul i {
   font-size: 16px;
   margin-right: 5px;
   color: #149ddd;
   line-height: 0;
 }
+
 .about .content p:last-child {
   margin-bottom: 0;
 }
@@ -364,10 +397,12 @@ width: 100%;
 .facts {
   padding-bottom: 30px;
 }
+
 .facts .count-box {
   padding: 30px;
   width: 100%;
 }
+
 .facts .count-box i {
   display: block;
   font-size: 44px;
@@ -375,6 +410,7 @@ width: 100%;
   float: left;
   line-height: 0;
 }
+
 .facts .count-box span {
   font-size: 48px;
   line-height: 40px;
@@ -383,6 +419,7 @@ width: 100%;
   color: #050d18;
   margin-left: 60px;
 }
+
 .facts .count-box p {
   padding: 15px 0 0 0;
   margin: 0 0 0 60px;
@@ -390,6 +427,7 @@ width: 100%;
   font-size: 14px;
   color: #122f57;
 }
+
 .facts .count-box a {
   font-weight: 600;
   display: block;
@@ -399,43 +437,59 @@ width: 100%;
   font-family: "Poppins", sans-serif;
   transition: ease-in-out 0.3s;
 }
+
 .facts .count-box a:hover {
   color: #1f5297;
 }
 
-
-
 /*--------------------------------------------------------------
 # Blobs
 --------------------------------------------------------------*/
+.blobArea img {
+  display: flex;
+  border-radius: 10%;
+  max-width: 400px;
+  max-height: 400px;
+  margin: auto;
+  padding: 20px,20px,20px,20px,;
+}
+.blobArea img:hover {
+transition-duration:  2000ms;
+  display: flex;
+  max-width: 400px;
+  max-height: 400px;
+  margin: auto;
+  margin: 20px,20px,20px,20px,;
+  -webkit-box-shadow: 3px 3px 10px 12px #655958;
+-moz-box-shadow: 3px 3px 10px 12px #655958;
+box-shadow: 3px 3px 10px 12px #655958;
+}
+
 .blobArea {
-  display: inline-flex;
-  background: rgba(120,165,182,0.5);
--webkit-backdrop-filter: blur(10px);
-backdrop-filter: blur(10px);
-border: 1px solid rgba(120,165,182,0.25);
-max-width: 80%;
-margin-left: auto;
-margin-right: auto;
-padding-left: 20px;
-padding-right: 20px;
-margin-top: 10px;
-border-radius: 20px;
+  display: flex;
+text-position:center;
+  background: rgba(120, 165, 182, 0.5);
+  -webkit-backdrop-filter: blur(10px);
+  backdrop-filter: blur(5px);
+  border: 1px solid rgba(120, 165, 182, 0.25);
+  max-width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-top: 10px;
+  border-radius: 20px;
 }
 
-.first-blob{
-
-  max-width:350px;
-  max-height:350px;
-
-}
-.second-blob{
-
-  max-width:350px;
-  max-height:350px;
-
+.first-blob {
+  max-width: 350px;
+  max-height: 350px;
 }
 
+.second-blob {
+  max-width: 350px;
+  max-height: 350px;
+}
 
 /*--------------------------------------------------------------
 # Breadcrumbs
@@ -444,10 +498,12 @@ border-radius: 20px;
   padding: 20px 0;
   background: #f9f9f9;
 }
+
 .breadcrumbs h2 {
   font-size: 26px;
   font-weight: 300;
 }
+
 .breadcrumbs ol {
   display: flex;
   flex-wrap: wrap;
@@ -456,58 +512,97 @@ border-radius: 20px;
   margin: 0;
   font-size: 15px;
 }
-.breadcrumbs ol li + li {
+
+.breadcrumbs ol li+li {
   padding-left: 10px;
 }
-.breadcrumbs ol li + li::before {
+
+.breadcrumbs ol li+li::before {
   display: inline-block;
   padding-right: 10px;
   color: #0e2442;
   content: "/";
 }
+
 @media (max-width: 768px) {
   .breadcrumbs .d-flex {
     display: block !important;
   }
+
   .breadcrumbs ol {
     display: block;
   }
+
   .breadcrumbs ol li {
     display: inline-block;
   }
 }
 
-.votingIcon{
+.votingIcon {
   display: inline-flex;
-  background: rgba(120,165,182,0.5);
--webkit-backdrop-filter: blur(10px);
-backdrop-filter: blur(10px);
-border: 1px solid rgba(120,165,182,0.25);
-margin-left: auto;
-margin-right: auto;
-padding-left: 20px;
-padding-right: 20px;
-margin-top: 10px;
-border-radius: 20px;
-
+  background: rgba(120, 165, 182, 0.5);
+  -webkit-backdrop-filter: blur(10px);
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(120, 165, 182, 0.25);
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-top: 10px;
+  border-radius: 20px;
 }
 
-
-
-.testTriangle{
+.testTriangle {
   width: 0;
-height: 0;
-border-style: solid;
-border-width: 0 50px 100px 50px;
-border-color: transparent transparent #000000 transparent;
+  height: 0;
+  border-style: solid;
+  border-width: 0 50px 100px 50px;
+  border-color: transparent transparent #000000 transparent;
 }
 
-.centered{
-  display:flex;
-width: auto;
-border: none
-padding: 10px;
+.centered {
+  display: flex;
+  width: auto;
+  border: none padding: 10px;
 }
+
+/*--------------------------------------------------------------
+# Transition Bars
+--------------------------------------------------------------*/
+#hr {
+  height: 100px;
+}
+
+
+
+.votingZone{
+  width: 100%;
+  background-image: url("assets/img/cool-background.png");
+}
+
+
+/* Profile Picture settings */
+.profilePic {
+  border-radius: 20px;
+}
+
+
+/* hover glow effect:  */
+.glowsel {
+  transition: 1s;
+  -webkit-box-shadow: 3px 3px 32px 9.5px rgba(7, 44, 161, 0.2);
+  -moz-box-shadow: 3px 3px 32px 9.5px rgba(7, 44, 161, 0.2);
+  box-shadow: 3px 3px 32px 9.5px rgba(7, 44, 161, 0.2);
+}
+
+.glowsel:hover {
+  transition-duration: 1000ms;
+  -webkit-box-shadow: 3px 3px 32px 9.5px rgba(108, 108, 112, 0.42);
+  -moz-box-shadow: 3px 3px 32px 9.5px rgba(108, 108, 112, 0.42);
+  box-shadow: 3px 3px 32px 9.5px rgba(108, 108, 112, 0.42);
+}
+
+
 
 /*--------------------------------------------------------------
 # Footer
@@ -523,15 +618,18 @@ padding: 10px;
   z-index: 9999;
   background: #040b14;
 }
+
 #footer .copyright {
   text-align: center;
 }
+
 #footer .credits {
   padding-top: 5px;
   text-align: center;
   font-size: 13px;
   color: #eaebf0;
 }
+
 @media (max-width: 1199px) {
   #footer {
     position: static;
