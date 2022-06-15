@@ -4,6 +4,19 @@
 * Author: BootstrapMade.com
 * License: https://bootstrapmade.com/license/
 */
+
+/*function blobbyAlert(){
+  alert("Yup! It's Blobby!"");
+};
+
+function wheelixAlert(){
+  alert('Nope! Not Blobby!');
+};
+
+function phlakeAlert(){
+  alert('Nope! Not Blobby!');
+};*/
+
 (function() {
   "use strict";
 
@@ -34,7 +47,7 @@
   }
 
   /**
-   * Easy on scroll event listener 
+   * Easy on scroll event listener
    */
   const onscroll = (el, listener) => {
     el.addEventListener('scroll', listener)
@@ -95,6 +108,8 @@
     this.classList.toggle('bi-list')
     this.classList.toggle('bi-x')
   })
+
+  
 
   /**
    * Scrool with ofset on links with a class name .scrollto
@@ -189,7 +204,7 @@
   });
 
   /**
-   * Initiate portfolio lightbox 
+   * Initiate portfolio lightbox
    */
   const portfolioLightbox = GLightbox({
     selector: '.portfolio-lightbox'
